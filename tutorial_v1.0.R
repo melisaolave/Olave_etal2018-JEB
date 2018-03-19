@@ -29,7 +29,7 @@ source("functions.R");
 # The folder examples has a species tree (sp-tree.tre), a set of gene trees (genetree1.tre - genetree10.tre) and an Imap (Imap.txt).
 # use the getXLC function to obtain the XLC matrix:
 getXLC(wd=wd, genetreePattern=".tre$", sp.treeName="sp-tree.tre", ImapName="Imap.txt", 
-       PhylonetPath="/Users/melisaolave/Downloads/Programas/Trabajo/phylonet_v2_3.jar", outputName="XLC.csv", cores=1);
+       PhylonetPath="/Users/Desktop/Programs/phylonet_v2_3.jar", outputName="XLC.csv", cores=1);
 
 # the attributes of this function:
   #wd : working directory. By default it will take the current working directory.
